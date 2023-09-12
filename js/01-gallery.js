@@ -35,4 +35,4 @@ function onImageClick(event) {
   });
 }
 
-console.log("Vova");
+
