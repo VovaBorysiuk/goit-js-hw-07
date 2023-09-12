@@ -22,16 +22,17 @@ function onImageClick(event) {
     return;
   }
 
-  const largeImageUrl = event.target.dataset.source
+  const largeImageUrl = event.target.dataset.source;
   const instance = basicLightbox.create(
-    `<img src="${largeImageUrl}" width="800" height="600" >`);
+    `<img src="${largeImageUrl}" width="800" height="600" >`
+  );
   instance.show();
 
   galleryList.addEventListener("keydown", (event) => {
-    
     if (event.code === "Escape") {
       instance.close();
     }
-  })
+  });
 }
 
+console.log("Vova");
