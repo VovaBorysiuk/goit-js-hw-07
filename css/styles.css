@@ -43,3 +43,23 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+
+.modal img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.basicLightbox:after {
+  content: "";
+  position: absolute;
+  top: 1.8rem;
+  right: 1.8rem;
+  width: 2em;
+  height: 2em;
+  background: url("https://basiclightbox.electerious.com/assets/images/close.svg");
+  background-size: contain;
+  background-repeat: no-repeat
+}
